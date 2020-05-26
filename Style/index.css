@@ -1,0 +1,369 @@
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+/*обзий контейнер*/
+.container {
+	/*border: 1px solid red;*/
+	/*max-width: 1250px;*/
+	width: 100%;
+	margin: auto;
+}
+/*коробка для шапки*/
+.header-box {
+	width: 100%;
+	height: 100vh;
+	margin: auto;
+	background-image: url(../img/bg.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	/*position: absolute;*/
+	/*border: 1px solid black;*/
+}
+
+.head-img {
+	margin-left: 80px;
+	z-index: 3;
+}
+/*коробка для лого и меню*/
+.title-box {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+/*коробка для ссылок "меню"*/
+.header-main {
+	margin-right: 36%;
+	z-index: 2;
+}
+/*ссылки*/
+.link {
+	text-decoration: none;
+	color: #424242;
+	font-family: 'Open Sans', sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 22px;
+}
+.link:hover {
+	border-bottom: 2px solid rgba(0,0,0,.2);
+}
+/*ссылки*/
+.header-link:not(:last-child) {
+	margin-right: 50px;
+}
+/*коробка для имени и фото*/
+.photo-name {
+	display: flex;
+	width: 1000px;
+	height: 460px;
+	/*border: 1px solid orange;*/
+	margin: 50px 0 0 60px;
+}
+/*коробка имя*/
+.name {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	width: 499px;
+	height: 460px;
+}
+/*коробка фото*/
+.photo {
+	width: 499px;
+	height: 460px;
+	background-image: url(../Img/headerPhoto.png);
+	z-index: 4;
+}
+
+
+
+
+.author-name {
+	font-family: 'Poiret One', cursive;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 55px;
+	color: #424242;
+}
+
+
+
+.city-​​name {
+	font-family: 'Open Sans', sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 24px;
+	color: #424242;
+}
+
+
+
+.portfolio {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 10% auto 0;
+	/*border: 1px solid red;*/
+}
+
+.line {
+	width: 44%;
+	border: 2px solid #FFBD81;
+}
+
+.title-portfolio {
+	font-size: 36px;
+	color: #424242;
+	font-family: Poiret One;
+	margin: 0 1% 0 1%;
+}
+
+.portfolio-box {
+	width: 100%;
+	height: 500px;
+	margin: 50px auto 0;
+}
+
+.portfolio-photo {
+	display: flex;
+	justify-content: space-around;
+	width: 85%;
+	height: 350px;
+	margin: auto;
+}
+
+.photo-portfolio {
+	width: 330px;
+	height: 300px;
+}
+
+.btn-Box {
+	display: flex;
+	width: 90%;
+	margin: 0 auto 50px;
+	justify-content: space-around;
+}
+
+.myBtn-portfolio {
+	width: 300px;
+	height: 58px;
+	font-family: Open Sans;
+	font-size: 24px;
+	color: #424242;
+	font-style: normal;
+	font-weight: normal;
+	border: 2px solid #FFBD81
+}
+.myBtn-portfolio:focus {
+	outline: none;
+}
+
+.price {
+		display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 300px auto 0;
+	width: 100%;
+}
+
+
+.service-box {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 80%;
+	margin: auto;
+}
+
+.services {
+	width: 270px;
+	padding: 30px;
+	/*box-shadow: 0 0 35px black;*/
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.box-order {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+
+}
+
+.order {
+	width: 350px;
+height: 70px;
+	margin: 50px auto 0;
+	border: 2px solid #FFBD81;
+	font-family: Open Sans;
+	font-size: 24px;
+	color: #424242;
+}
+
+.aboutMe-box {
+	display: flex;
+	width: 100%;
+	margin-bottom: 50px;
+}
+
+.title-boxs {
+	display: flex;
+	justify-content: flex-end;
+	margin: 25px 100px 15px 0;
+	font-family: Poiret One;
+	font-size: 36px;
+	color: #424242;
+}
+
+.about-me {
+	width: 65%;
+	background: #FFBD81;
+}
+
+.text-about {
+	width: 50%;
+	margin-left: 80px;
+	margin-bottom: 50px;
+	font-family: Roboto;
+	font-size: 16px;
+	line-height: 20px;
+}
+
+.about-photo {
+	width: 40%;
+	height: 300px;
+	/*background-color: red;*/
+	margin: 200px 0 0 -150px;
+	background-image: url(../Img/about.png);
+		background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+
+
+.contact {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 5% auto 0;
+	width: 100%;
+}
+
+.contect-box {
+	display: flex;
+	justify-content: space-around;
+	width: 90%;
+	/*height: 500px;*/
+	/*background-color: darkred;*/
+	margin: 3% auto 3%;
+}
+
+
+
+.social-box {
+	width: 35%;
+	height: 500px;
+	/*background-color: red;*/
+}
+
+
+.phone-number {
+/*	display: flex;
+	flex-direction: row;*/
+	width: 100%;
+	height: 150px;
+/*	background-color: orange;*/
+	margin-bottom: 4%;
+	box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.15), -10px -10px 25px rgba(244, 244, 244, 0.15);
+}
+
+.box-number {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	font-family: Open Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+
+}
+
+.img-number {
+	margin-right: 5%;
+}
+
+.img-mail {
+	margin-right: 5%;
+}
+
+.mail-box {
+		display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+
+font-family: Open Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+}
+
+
+
+.network {
+	
+		width: 100%;
+	height: 150px;
+	box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.15), -10px -10px 25px rgba(244, 244, 244, 0.15);
+	/*background-color: orange;*/
+}
+
+.text-network {
+		display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	font-family: Open Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+}
+
+.boximg-network {
+		display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	margin-top: 3%;
+}
+
+.img-social:not(:last-child) { 
+	margin-right: 8%;
+}
+
+
+.messeng {
+			width: 100%;
+	height: 150px;
+	background-color: orange;
+	margin-top: 4%;
+}
+
+.form {
+	width: 35%;
+	height: 500px;
+	background-color: red;
+}
+
+.nav-main {
+	width: 25%;
+	height: 500px;
+	background-color: green;
+}
